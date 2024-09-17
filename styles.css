@@ -4,11 +4,14 @@ body {
     text-align: center;
     background-color: #fefae0;
 }
-
+#title {
+    color: #283618;
+    margin-top: 5vh;
+}
 .container {
     width: 50vw;
     height: 70vh;
-    margin: 15vh auto;
+    margin: 8vh auto;
     padding: 20px;
     display: flex;
     justify-content: space-around;
