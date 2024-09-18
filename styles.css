@@ -8,16 +8,19 @@ body {
     color: #283618;
     margin-top: 5vh;
 }
-.container {
+
+.main{
     width: 50vw;
-    height: 70vh;
+    height: 55vh;
     margin: 8vh auto;
-    padding: 20px;
+    padding: 4vh 2vh;
+    background-color: #bc6c25;
+    border-radius: 20px;
+}
+.container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #bc6c25;
-    border-radius: 20px;
 }
 h1 {
     text-transform: uppercase;
@@ -57,4 +60,5 @@ h1 {
     background-color: green;
     color: #fff;
     cursor: pointer;
+    margin: 5vh;
 }

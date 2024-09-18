@@ -42,8 +42,8 @@ function addScore3() {
 function newGame() {
     homeScore = 0;
     guestScore = 0;
-    homeScoreBoard.textContent = 0;
-    guestScoreBoard.textContent = 0;
+    homeScoreBoard.textContent = homeScore;
+    guestScoreBoard.textContent = guestScore;
     homeScoreBoard.style.color = '#fff';
     guestScoreBoard.style.color = '#fff';
 }
